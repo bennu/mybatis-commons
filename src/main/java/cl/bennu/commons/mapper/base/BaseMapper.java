@@ -1,23 +1,10 @@
 package cl.bennu.commons.mapper.base;
 
 import cl.bennu.commons.domain.base.BaseDomain;
+import cl.bennu.commons.mapper.base.cqrs.CommanderMapper;
+import cl.bennu.commons.mapper.base.cqrs.QueryMapper;
 
-import java.util.List;
-
-public interface BaseMapper<T extends BaseDomain> {
-
-    List<T> getAll();
-
-    List<T> find(T type);
-
-    T get(Long id);
-
-    T getByName(String name);
-
-    void insert(T type);
-
-    void update(T type);
-
-    void delete(Long id);
+public interface BaseMapper<T extends BaseDomain>
+        extends CommanderMapper<T>, QueryMapper<T> {
 
 }

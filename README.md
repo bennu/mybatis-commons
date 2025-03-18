@@ -1,23 +1,39 @@
-# Uso de librería bennu-commons
+Bennu MyBatis-Commons
+===================
 
-Para usar esta librería en los proyectos de Maven debes incluir el siguiente bloque:
+[![Maven Central](https://img.shields.io/maven-central/v/cl.bennu/mybatis-commons?label=Maven%20Central&logo=sonatype)](https://search.maven.org/artifact/cl.bennu/mybatis-commons)
+[![License](https://img.shields.io/github/license/bennu/mybatis-commons?label=License&logo=opensourceinitiative)](https://opensource.org/license/mit-0)
+[![Supported JVM Versions](https://img.shields.io/badge/JVM-17--21-brightgreen.svg?label=JVM&logo=openjdk)](https://adoptium.net/es/temurin/releases/)
 
-```
+Bennu MyBatis-Commons, a package of Java utility classes for
+classes that are repeated in our mybatis projects.
+
+The code is tested using the latest revision of the JDK for supported
+LTS releases: 17 and 21.
+
+```xml
 <dependency>
     <groupId>cl.bennu</groupId>
     <artifactId>mybatis-commons</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
-### Esta librería cuenta con las siguientes dependencias:
+Building
+--------
 
-- lombok 1.18.36
-- jackson-core 2.18.2
-- jackson-annotations 2.18.2
-- commons-lang3 3.17.0
-- commons-io 2.18.0
-- java-jwt 4.4.0
-- commons-beanutils 1.10.0
-- commons-collections4 4.5.0-M3
-- slf4j-api 2.0.16
+Building requires a Java JDK and [Apache Maven](https://maven.apache.org/).
+The required Java version is found in the `pom.xml` as the `maven.compiler.source` property.
+
+From a command shell, run `mvn` without arguments to invoke the default Maven goal to run all tests and checks.
+
+License
+-------
+
+This code is licensed under the [MIT License](https://opensource.org/license/mit).
+
+Dependencies
+------------
+
+- commons 1.1.0
+- mybatis 3.5.19
