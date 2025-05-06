@@ -3,7 +3,9 @@ Bennu MyBatis-Commons
 
 [![Maven Central](https://img.shields.io/maven-central/v/cl.bennu/mybatis-commons?label=Maven%20Central&logo=sonatype)](https://search.maven.org/artifact/cl.bennu/mybatis-commons)
 [![License](https://img.shields.io/github/license/bennu/mybatis-commons?label=License&logo=opensourceinitiative)](https://opensource.org/license/mit-0)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![Supported JVM Versions](https://img.shields.io/badge/JVM-17--21-brightgreen.svg?label=JVM&logo=openjdk)](https://adoptium.net/es/temurin/releases/)
+
 
 Bennu MyBatis-Commons, a package of Java utility classes for
 classes that are repeated in our mybatis projects.
@@ -15,7 +17,7 @@ LTS releases: 17 and 21.
 <dependency>
     <groupId>cl.bennu</groupId>
     <artifactId>mybatis-commons</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
 </dependency>
 ```
 
@@ -35,5 +37,5 @@ This code is licensed under the [MIT License](https://opensource.org/license/mit
 Dependencies
 ------------
 
-- commons 1.2.0
+- commons 1.3.0
 - mybatis 3.5.19

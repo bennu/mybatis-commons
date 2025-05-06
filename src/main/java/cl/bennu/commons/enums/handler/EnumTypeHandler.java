@@ -13,6 +13,10 @@ public class EnumTypeHandler<T> implements TypeHandler<BaseEnum> {
 
     private final Class<T> clazz;
 
+    public EnumTypeHandler() throws NoDataException {
+        throw new NoDataException("No class defined");
+    }
+
     public EnumTypeHandler(Class<T> clazz) throws NoDataException {
         if (clazz == null) throw new NoDataException("No class defined");
         this.clazz = clazz;
