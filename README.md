@@ -11,13 +11,13 @@ Bennu MyBatis-Commons, a package of Java utility classes for
 classes that are repeated in our mybatis projects.
 
 The code is tested using the latest revision of the JDK for supported
-LTS releases: 17 and 21.
+LTS releases: 17, 21 and 25.
 
 ```xml
 <dependency>
     <groupId>cl.bennu</groupId>
     <artifactId>mybatis-commons</artifactId>
-    <version>1.1.2</version>
+    <version>1.1.3</version>
 </dependency>
 ```
 
@@ -37,5 +37,5 @@ This code is licensed under the [MIT License](https://opensource.org/license/mit
 Dependencies
 ------------
 
-- commons 1.5.1
+- commons 1.6.4
 - mybatis 3.5.19
