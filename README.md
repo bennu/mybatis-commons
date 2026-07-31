@@ -17,7 +17,7 @@ LTS releases: 17, 21 and 25.
 <dependency>
     <groupId>cl.bennu</groupId>
     <artifactId>mybatis-commons</artifactId>
-    <version>1.1.4</version>
+    <version>1.1.6</version>
 </dependency>
 ```
 
@@ -37,5 +37,5 @@ This code is licensed under the [MIT License](https://opensource.org/license/mit
 Dependencies
 ------------
 
-- commons 1.7.0
+- commons 1.8.0
 - mybatis 3.5.19
