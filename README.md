@@ -37,5 +37,5 @@ This code is licensed under the [MIT License](https://opensource.org/license/mit
 Dependencies
 ------------
 
-- commons 1.8.0
+- commons 1.8.2
 - mybatis 3.5.19
